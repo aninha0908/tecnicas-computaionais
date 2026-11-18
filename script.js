@@ -35,7 +35,7 @@ function mostraAlternativas(){
 }
 
 function respostaSelecionada(opcaoSelecionada){
-    const afirmacoes = opcaoSelecionada.afirmacao;
+    const afirmacoes = opcaoSelecionada.afirmacoes;
     historiaFinal += afirmacoes + " ";
     atual++;
     mostraPergunta();
